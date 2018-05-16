@@ -1,0 +1,188 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>典故探源二 - 好讀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+
+<!-- Make the page iPhone-friendly. -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!--link rel="apple-touch-icon" href="images/template/engage.png"/-->
+
+<!-- Regular stylesheet and javascript. -->
+<link rel="stylesheet" type="text/css" href="m.css" />
+<script language="javascript">
+var module = "m";
+var bookID = "B50b:";
+var chapterID = 0;
+var maxChapterID = 108;
+var showLastPage = null;
+</script>
+<script language="javascript" type="text/javascript" src="cookie.js"></script>
+<script language="javascript" type="text/javascript" src="v.js"></script>
+<script language="javascript" type="text/javascript" src="m.js"></script>
+</head>
+
+<body onLoad="Init();" onkeydown="HandleKey(event)">
+<pre id="SourceText">黔驢技窮
+丙吉問牛
+敝帚千金
+瓜田李下
+滄海遺珠
+曹沖秤象
+車胤囊螢
+葛巾漉酒
+鳧短鶴長
+鳳鳥不至
+馮唐已老
+滄海桑田
+布帆無恙
+參元失火
+蒼鷹乳虎
+伯樂相馬
+伯俞泣杖
+跛鱉千里
+冰心玉壺
+秉燭夜遊
+病臥牛衣
+愛屋及烏
+才高八斗
+白駒過隙
+斷袖之癖
+雪泥鴻爪
+破釜沉舟
+八股取士
+安仁拜塵
+八磚學士
+霸陵呵夜
+白髮郎潛
+匹夫之勇
+以貌取人
+半途而廢
+五十步笑百步
+白龍魚服
+百步穿楊
+半面之識
+謗書盈篋
+杯弓蛇影
+比干剖心
+萇弘化碧
+朝衣東市
+陳蕃懸榻
+陳仲食李
+乘車鼠穴
+乘舟夢日
+池塘春草
+赤米白鹽
+出谷遷喬
+廚有懸魚
+楚材晉用
+床頭周易
+垂衣而治
+春蚓秋蛇
+蓴羹鱸膾
+脣亡齒寒
+大樹將軍
+厝火積薪
+從事督郵
+紞鼓留公
+斗南一人
+羝羊觸藩
+鄧禹笑人
+帝衣濺血
+電光石火
+丁蘭刻木
+丁松入夢
+鼎湖龍去
+東床坦腹
+董龍雞狗
+獨孤側帽
+竇家丹桂
+牘背千金
+咄咄書空
+奪笏擊賊
+樊姬諫獵
+芳蘭生門
+風馬牛不相及
+奉揚仁風
+程門立雪
+亡羊補牢
+尸位素餐
+高山流水
+覆盆之冤
+吐哺握髮
+功人功狗
+綆短汲深
+顧榮羽扇
+貢公彈冠
+管中窺豹
+果擲潘郎
+漢水膠船
+合浦還珠
+小時了了
+河山帶礪
+涸轍之鮒
+鶴立雞群
+鴻鵠之志
+華封三祝
+畫餅充飢
+青錢萬選
+畫荻學書
+畫虎反類狗
+畫蛇添足
+桓公嘆柳
+槐樹婆娑
+</pre>
+<div id=V></div>
+
+<div id=G>
+</div>
+
+<div id="Settings">
+    <div class="Category">&nbsp;</div>
+    <div class="Category">&bull; 書頁高度：600</div>
+    <div class="Category">&bull; 字體大小：<input type="hidden" name="FontSize" id="FontSize" value="" /> 
+   <span class="Picker" id="Size0"
+      onclick="SelectFontSize(this);">16</span>
+   <span class="Picker" id="Size1"
+      onclick="SelectFontSize(this);">20</span>
+   <span class="Picker" id="Size2"
+      onclick="SelectFontSize(this);">24</span>
+   <span class="Picker" id="Size3"
+      onclick="SelectFontSize(this);">28</span>
+   <span class="Picker" id="Size4"
+      onclick="SelectFontSize(this);">32</span>
+   </div>
+
+   <div class="Category">&bull; 字型名稱：<input type="text" name="FontName" id="FontName" size="20" value="" /></div>
+   <div class="Category">&bull; 背景顏色：<input type="hidden" name="BgColor" id="BgColor" value="" />
+   <span class="Picker" style="background-color:#FFFFFF" id="Color0"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#EEEBC4" id="Color1"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#E3EEC4" id="Color2"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#D9E8FB" id="Color3"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#F1DAB6" id="Color4"
+         onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   </div>
+   <div align="center"><input name="ApplySettings" type="button" id="ApplySettings" value=" 套用 " onclick="ApplySettings();" class="CloseButton" />&nbsp;&nbsp;<input name="CloseSettings" type="button" id="CloseSettings" value=" 取消 " onclick="CloseSettings();" class="CloseButton" /></div>
+</div>
+<div id="BookShelf">
+    <div class="Library" onclick="location.href='http://www.haodoo.net/';">前往好讀網站 &rsaquo;&rsaquo;</div>
+    <div class="Subtitle">或直接點選以下分類：</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=100';">&bull; 世紀百強</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=wisdom';">&bull; 隨身智囊</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=history';">&bull; 歷史小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=martial';">&bull; 武俠小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=mystery';">&bull; 懸疑小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=romance';">&bull; 愛情小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=scifi';">&bull; 科幻小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=fiction';">&bull; 小說園地</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=exchange';">&bull; 以書會友</div>
+    <div align="center"><input name="CloseBookShelf" type="button" id="CloseBookShelf" value=" 關閉 " onclick="CloseBookShelf();" class="CloseButton" /></div>
+</div>
+<div id="LoadingBar">資料載入中……</div>
+</body>
+</html>

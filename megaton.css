@@ -1,0 +1,10 @@
+﻿div {
+   vertical-ideographic;
+   writing-mode:tb-rl; height=100%;
+   font-family:MingLiu; font-size=15;
+  }
+p.list {
+   horizontal;
+   writing-mode:lr-tb;
+   font-family:MingLiu; font-size=13;
+   }

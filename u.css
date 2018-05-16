@@ -1,0 +1,226 @@
+/*html
+{
+	overflow: hidden;
+}*/
+body
+{
+	margin: 0px 0px 0px 0px;
+}
+
+#V {
+
+   visibility: hidden;
+
+   }
+
+#TB {
+
+   width: 32px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+   text-align: center;
+
+   }
+
+#B {
+
+   cursor: pointer;
+
+   }
+
+#C {
+
+   font-size: 14px;
+   height: 16px;
+   text-align: center;
+
+   }
+
+#P {
+
+   font-size: 14px;
+   height: 16px;
+   text-align: center;
+
+   }
+ 
+#G {
+
+   display: none;
+
+   }
+
+#F {
+
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+   text-align: center;
+
+   }
+
+#FooterBar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	visibility: hidden;
+}
+#FooterBar .Button
+{
+	padding: 2px 2px 2px 2px;
+	border: solid 1px #AAAAAA;
+	width: 40px;
+	color: #777777;
+	background-color: #EFEFEF;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+#FooterBar .Status
+{
+	color: gray;
+	white-space: nowrap;
+}
+#SourceText, #MaxChapterID
+{
+	display: none;
+}
+#ViewerTable {
+
+   color: #000000;
+
+   }
+
+#ViewerTable td {
+
+   text-align: center;
+   cursor: pointer;
+
+  }
+
+#ViewerTable td.Char
+{
+	/* reserved for the actual characters (not white space) */
+}
+#BookShelf
+{
+	position: absolute;
+	width: 180px;
+	height: 350px;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #AAAAAA;
+	background-color: #EEEEEE;
+	visibility: hidden;
+}
+#BookShelf div.Library
+{
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 2em;
+	cursor: pointer;
+}
+#BookShelf div.Subtitle
+{
+	color: #AAAAAA;
+	font-size: 12px;
+	line-height: 2em;
+	cursor: pointer;
+}
+#BookShelf div.Category
+{
+	color: #333333;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-left: 45px;
+	cursor: pointer;
+}
+#BookShelf .CloseButton, #Settings .CloseButton
+{
+	color: #333333;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#Settings
+{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #AAAAAA;
+	background-color: #EEEEEE;
+	visibility: hidden;
+}
+#Settings div.Subtitle
+{
+	color: #777777;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+#Settings div.Category
+{
+	color: #333333;
+	font-size: 16px;
+	line-height: 2em;
+	cursor: pointer;
+}
+#Settings span.Hint
+{
+	color: #CC0000;
+	font-size: 14px;
+}
+
+#Picker {
+
+   border: 1px solid #AAAAAA;
+   padding: 2px 4px 2px 4px;
+
+   }
+
+#Settings span.Picker {
+
+   border: 1px solid #AAAAAA;
+   padding: 2px 4px 2px 4px;
+
+   }
+#LoadingBar1
+{
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #AAAAAA;
+	background-color: #EEEEEE;
+	visibility: hidden;
+}
+
+#LoadingBar
+{
+	position: absolute;
+	width: 160px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #AAAAAA;
+	background-color: #EEEEEE;
+	visibility: hidden;
+}

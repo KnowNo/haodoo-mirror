@@ -1,0 +1,111 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>廣論卷十二 - 好讀</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+
+<!-- Make the page iPhone-friendly. -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!--link rel="apple-touch-icon" href="images/template/engage.png"/-->
+
+<!-- Regular stylesheet and javascript. -->
+<link rel="stylesheet" type="text/css" href="m.css" />
+<script language="javascript">
+var module = "m";
+var bookID = "B262-12:";
+var chapterID = 0;
+var maxChapterID = 31;
+var showLastPage = null;
+</script>
+<script language="javascript" type="text/javascript" src="cookie.js"></script>
+<script language="javascript" type="text/javascript" src="v.js"></script>
+<script language="javascript" type="text/javascript" src="m.js"></script>
+</head>
+
+<body onLoad="Init();" onkeydown="HandleKey(event)">
+<pre id="SourceText">辰二 安受苦忍
+巳一 必須安受苦之理
+巳二 引發此之方便
+午一 有苦生時破除專一執為不喜
+午二 顯示其苦理應忍受
+未一 思惟苦之功德
+未二 思惟能忍眾苦難行之功德
+申一 思解脫等諸大勝利
+申二 思能遮止無量大苦所有勝利
+未三 從微漸修無難之理
+巳三 處門廣釋
+辰三 思擇法忍
+卯四 修忍時如何行
+卯五 此等攝義
+寅四 精進度
+卯一 精進自性
+卯二 趣入修習精進方便
+卯三 精進差別
+辰一 正明差別
+巳一 擐甲精進
+巳二 攝善法精進
+巳三 饒益有情精進
+辰二 發生精進之方便
+巳一 捨離障礙精進違緣
+午一 明所治品
+午二 修斷彼之方便
+巳二 修積順緣護助資糧
+午一 發勝解力
+午二 發堅固力
+午三 發歡喜力
+午四 暫止息力
+</pre>
+<div id=V></div>
+
+<div id=G>
+</div>
+
+<div id="Settings">
+    <div class="Category">&nbsp;</div>
+    <div class="Category">&bull; 書頁高度：600</div>
+    <div class="Category">&bull; 字體大小：<input type="hidden" name="FontSize" id="FontSize" value="" /> 
+   <span class="Picker" id="Size0"
+      onclick="SelectFontSize(this);">16</span>
+   <span class="Picker" id="Size1"
+      onclick="SelectFontSize(this);">20</span>
+   <span class="Picker" id="Size2"
+      onclick="SelectFontSize(this);">24</span>
+   <span class="Picker" id="Size3"
+      onclick="SelectFontSize(this);">28</span>
+   <span class="Picker" id="Size4"
+      onclick="SelectFontSize(this);">32</span>
+   </div>
+
+   <div class="Category">&bull; 字型名稱：<input type="text" name="FontName" id="FontName" size="20" value="" /></div>
+   <div class="Category">&bull; 背景顏色：<input type="hidden" name="BgColor" id="BgColor" value="" />
+   <span class="Picker" style="background-color:#FFFFFF" id="Color0"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#EEEBC4" id="Color1"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#E3EEC4" id="Color2"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#D9E8FB" id="Color3"
+      onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   <span class="Picker" style="background-color:#F1DAB6" id="Color4"
+         onclick="SelectBgColor(this);">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+   </div>
+   <div align="center"><input name="ApplySettings" type="button" id="ApplySettings" value=" 套用 " onclick="ApplySettings();" class="CloseButton" />&nbsp;&nbsp;<input name="CloseSettings" type="button" id="CloseSettings" value=" 取消 " onclick="CloseSettings();" class="CloseButton" /></div>
+</div>
+<div id="BookShelf">
+    <div class="Library" onclick="location.href='http://www.haodoo.net/';">前往好讀網站 &rsaquo;&rsaquo;</div>
+    <div class="Subtitle">或直接點選以下分類：</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=100';">&bull; 世紀百強</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=wisdom';">&bull; 隨身智囊</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=history';">&bull; 歷史小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=martial';">&bull; 武俠小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=mystery';">&bull; 懸疑小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=romance';">&bull; 愛情小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=scifi';">&bull; 科幻小說</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=fiction';">&bull; 小說園地</div>
+    <div class="Category" onclick="location.href='http://www.haodoo.net/?M=hd&P=exchange';">&bull; 以書會友</div>
+    <div align="center"><input name="CloseBookShelf" type="button" id="CloseBookShelf" value=" 關閉 " onclick="CloseBookShelf();" class="CloseButton" /></div>
+</div>
+<div id="LoadingBar">資料載入中……</div>
+</body>
+</html>

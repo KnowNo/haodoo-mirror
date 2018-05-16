@@ -1,0 +1,195 @@
+﻿table { font-family:Arial, sans-serif; font-size:11pt; }
+
+#wrapper {
+   background-color: #FFFFFF;
+   width: 910px;
+   overflow: hidden;
+   }
+
+#left {
+   position: fix;
+   float: left;
+   width: 150px;
+   top: 0;
+   left: 0;
+   margin: 0 20;
+   text-align: left;
+   height: 100%;
+   font-size:10pt;
+   font-family:Arial;
+   line-height:13pt;
+   font-height:13pt;
+   overflow: hidden;
+   }
+
+#center {
+   float: left;
+   width: 510px;
+   height: 100%;
+   }
+
+#right {
+   float: right;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #AAAA00;
+   width: 160px;
+   margin: 0 20;
+   height: 100%;
+   overflow: hidden;
+   }
+
+td.s {
+   width: 510;
+   }
+
+td.b {
+   height: 20;
+   width: 510;
+   }
+
+p.c {
+   text-align: center;
+   }
+
+h3 {
+   font-size:12pt;
+   background-color: #AAAA00;
+   border-right: 1px solid gray;
+   border-bottom: 1px solid gray;
+   padding: 2px;
+   }
+
+h4 {
+   margin-top: 0 !important;
+   font-weight: Bold !important;
+   background-color: #f0f0f0;
+   margin: 0px 0px 8px 0px;
+   border-bottom: 1px solid #CCCCCC;
+   padding: 4px;
+   }
+h4.gray {
+   font-size:12pt;
+   background-color: #f0f0f0;
+   border-bottom: 1px solid #CCCCCC;
+   margin: 0px 0px 8px 0px;
+   padding: 2px;
+   }
+h4.t16 {
+   font-size:12pt;
+   background-color:  #f0f0f0;
+   margin: 16px 0px 8px 0px;
+   padding: 4px;
+   }
+h5 {
+   font-size:12pt;
+   background-color: #f0f0f0;
+   margin: 0px 2px 0px 16px;
+   border-bottom: 1px solid #CCCCCC;
+   }
+h5.s {
+   font-size:11pt;
+   background-color:  #f0f0f0;
+   margin: 0px 0px 0px 16px;
+   border-bottom: 1px solid #CCCCCC;
+   }
+
+hr.s {
+   border: 0;
+   height:1;
+   width: 200;
+   text-align: left; /*this will align it for IE*/
+   margin-left: 0; /*for Firefox, Chrome, and Safari*/
+   }
+
+hr.d {
+   border: 0;
+   height:1;
+   width: 100%;
+   color: #999999;
+   background-color: #999999;
+   }
+   
+ol {
+   margin-top: 12 !important;
+   }
+   
+p {
+   margin-top: 12 !important;
+   margin-bottom: 12 !important;
+   }
+
+ol.n {
+   padding-left: 0;
+   }
+   
+a:link {
+	color:#0078F0;
+	text-decoration: none;
+	cursor: pointer;
+	}
+a:visited {color:#005AB4;text-decoration: none; cursor: pointer;}
+A:active {color:#FF6600;}
+A:hover {
+	color:#E88E00;
+	text-decoration: underline;
+	}
+
+ul.s {
+   list-style-type:square;
+   padding-left: 0;
+   }
+
+ul.d {
+   list-style-type:disc;
+   padding-left: 0;
+   }
+   
+a.s {
+   background-color: Azure;
+   }
+
+em.s {
+   background-color: Azure;
+   font-style: normal;
+   }
+
+.btn.sharp {
+  border-radius:0;
+  color: #ffffff;
+}
+
+STRONG  {COLOR: #990000;FONT-WEIGHT: bold}
+UL { margin:0px; margin-left: 20px; }  /* Any UL */
+
+.m10 {font-size:10pt;}
+.m11 {font-size:11pt;}
+.a03 {font-size:10pt; font-family:Arial, sans-serif;; line-height:13pt; font-height:13pt}
+.a14 {font-size:11pt; font-family:Arial; line-height:14pt; font-height:14pt}
+
+.a92 {font-size:10pt; font-family:Arial; line-height:13pt; font-height:13pt}
+.a91 {font-size:9pt; font-family:Arial; line-height:11pt; font-height:11pt}
+.a90 {font-size:9pt; font-family:Arial;}
+.a80 {font-family:Arial; font-size:8pt;}
+
+.i03 {font-size:10pt; font-family:Arial; line-height:13pt; font-height:13pt; padding-left:25pt; padding-right:25pt; color:#003300}
+.i14 {font-size:11pt; font-family:Arial; line-height:14pt; font-height:14pt; padding-left:25pt; padding-right:25pt; color:#666666}
+
+.i92 {font-size:9pt; font-family:Arial; line-height:12pt; font-height:12pt; padding-left:25pt; padding-right:25pt}
+
+.m92 {font-size:9pt; font-family:Arial; line-height:12pt; font-height:12pt; color:white }
+
+.m92 A:link { color:white; font-weight: bold; text-decoration:underline }
+.m92 A:visited { color:white; font-weight: bold; text-decoration:underline }
+.m92 A:active { color:white; font-weight: bold; text-decoration:underline }
+.m92 A:hover { color:white; font-weight: bold; text-decoration:underline }
+
+.d92 {font-size:9pt; font-family:Arial; line-height:12pt; font-height:12pt; color:white }
+
+.d92 A:link { color:#FFFF00; }
+.d92 A:visited { color:#FFFF00; }
+.d92 A:active { color:#FFFF00; }
+.d92 A:hover { color:#FFFF00; text-decoration:underline }
+
+.y92 {font-size:9pt; font-family:Arial; line-height:12pt; font-height:12pt; color:#FFCC00 }
